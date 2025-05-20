@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
                         kq = "Pt có 2 Nghiệm: x1 = " + dcf.format((-b + Math.sqrt(delta)) / (2 * a));
                         kq += "; x2 = " + dcf.format((-b - Math.sqrt(delta)) / (2 * a));
                     }
-
                 }
                 txtResult.setText(kq);
             }
